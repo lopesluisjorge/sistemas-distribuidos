@@ -1,13 +1,13 @@
-package br.edu.ifma.dcomp.sd.cli;
+package br.edu.ifma.dcomp.sd.financeiro.cli;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Scanner;
 
-import br.edu.ifma.dcomp.sd.model.Mensalidade;
-import br.edu.ifma.dcomp.sd.repository.MensalidadadeRepository;
-import br.edu.ifma.dcomp.sd.utils.ConnectionPool;
+import br.edu.ifma.dcomp.sd.financeiro.model.Mensalidade;
+import br.edu.ifma.dcomp.sd.financeiro.repository.MensalidadadeRepository;
+import br.edu.ifma.dcomp.sd.financeiro.utils.ConnectionPool;
 
 public class Terminal {
 

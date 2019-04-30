@@ -1,4 +1,4 @@
-package br.edu.ifma.dcomp.sd.utils;
+package br.edu.ifma.dcomp.sd.financeiro.utils;
 
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,4 +1,4 @@
-package br.edu.ifma.dcomp.sd.repository;
+package br.edu.ifma.dcomp.sd.financeiro.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import br.edu.ifma.dcomp.sd.model.Aluno;
-import br.edu.ifma.dcomp.sd.model.Mensalidade;
+import br.edu.ifma.dcomp.sd.financeiro.model.Aluno;
+import br.edu.ifma.dcomp.sd.financeiro.model.Mensalidade;
 
 public class MensalidadadeRepository {
 

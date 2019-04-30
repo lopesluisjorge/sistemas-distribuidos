@@ -1,4 +1,4 @@
-package br.edu.ifma.dcomp.sd.model;
+package br.edu.ifma.dcomp.sd.financeiro.model;
 
 import java.util.Date;
 

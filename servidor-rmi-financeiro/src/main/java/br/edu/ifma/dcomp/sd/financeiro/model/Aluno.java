@@ -1,7 +1,10 @@
-package br.edu.ifma.dcomp.sd.model;
+package br.edu.ifma.dcomp.sd.financeiro.model;
 
-public class Aluno {
+import java.io.Serializable;
 
+public class Aluno implements Serializable {
+
+    private static final long serialVersionUID = -6730866183055665201L;
     private Integer id;
     private String nome;
     private Integer matricula;

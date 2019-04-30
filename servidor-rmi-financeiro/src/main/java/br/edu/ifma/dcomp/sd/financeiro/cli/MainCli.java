@@ -1,10 +1,8 @@
-package br.edu.ifma.dcomp.sd;
+package br.edu.ifma.dcomp.sd.financeiro.cli;
 
 import java.sql.SQLException;
 
-import br.edu.ifma.dcomp.sd.cli.Terminal;
-
-public class Main {
+public class MainCli {
 
     public static void main(String[] args) throws SQLException {
         char opcao;
