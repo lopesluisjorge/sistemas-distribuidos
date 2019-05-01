@@ -20,7 +20,7 @@ public class MensalidadadeRepository {
     }
 
     public List<Mensalidade> mensalidadesEmAtrasoComAlunos() {
-        List<Mensalidade> lista = new ArrayList<>();
+        final List<Mensalidade> lista = new ArrayList<>();
 
         String consulta = new StringBuilder()
                 .append("SELECT")

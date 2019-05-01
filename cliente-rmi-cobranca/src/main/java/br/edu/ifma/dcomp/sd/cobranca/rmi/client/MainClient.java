@@ -10,7 +10,7 @@ import br.edu.ifma.dcomp.sd.financeiro.model.Aluno;
 import br.edu.ifma.dcomp.sd.financeiro.rmi.service.ServicoFinanceiroInterface;
 
 public class MainClient {
-    
+
     public static void main(String[] args) {
         try {
             ServicoFinanceiroInterface financeiroService = (ServicoFinanceiroInterface) Naming.lookup("//localhost/financeiro");

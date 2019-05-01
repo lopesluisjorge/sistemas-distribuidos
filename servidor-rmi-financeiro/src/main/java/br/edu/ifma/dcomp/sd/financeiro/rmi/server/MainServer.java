@@ -13,14 +13,13 @@ public class MainServer {
     public static void main(String[] args) {
         try {
             LocateRegistry.createRegistry(1099);
-            
+
             Naming.bind("//localhost/financeiro", new ServicoFinanceiroImpl());
-            
+
             System.out.println("Server is ready");
         } catch (RemoteException | MalformedURLException | AlreadyBoundException e) {
             e.printStackTrace();
         }
-        
     }
 
 }

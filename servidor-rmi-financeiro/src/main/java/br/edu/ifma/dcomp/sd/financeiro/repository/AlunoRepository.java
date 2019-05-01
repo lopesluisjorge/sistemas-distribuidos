@@ -18,7 +18,7 @@ public class AlunoRepository {
     }
 
     public List<Aluno> alunosComMensalidadeEmAtraso() {
-        List<Aluno> lista = new ArrayList<>();
+        final List<Aluno> lista = new ArrayList<>();
 
         String consulta = new StringBuilder()
                 .append("SELECT DISTINCT ")
